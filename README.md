@@ -277,6 +277,7 @@ The following functions are also built-in and provided by TinyExpr:
 - fac (factorials e.g. `fac 5` == 120)
 - ncr (combinations e.g. `ncr(6,2)` == 15)
 - npr (permutations e.g. `npr(6,2)` == 30)
+- if  (test if value>=0 e.g. `if(0,2,3)` == 2; `if(-1,2,3)` == 3)
 
 Also, the following constants are available:
 
